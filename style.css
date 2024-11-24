@@ -1,0 +1,284 @@
+:root {
+    --main-font: "Muli";
+    --primary-color: #458ff6;
+    --gray: #7d7987;
+    --white: #ffffff;
+    --black: #000000;
+    --xl: 1920px;
+    --lg: 1280px;
+    --md: 960px;
+    --sm: 600px;
+    --xs: 320px;
+    --tc: color 0.3s;
+    --ta: all 0.3s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: var(--gray); */
+}
+
+html,
+body,
+main {
+    font-family: var(--main-font);
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    width: var(--lg);
+    margin: auto;
+}
+
+header {
+    max-width: var(--lg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    /* padding-top: 2%; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: var(--black);
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    margin-top: 6%;
+}
+
+.hero-bin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-bin h1 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 48px;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+
+.hero-bin p {
+    font-weight: 300;
+    font-size: 21px;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+
+.hero-bin button {
+    width: 35%;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 0;
+    border-radius: 55px;
+    padding: 3% 5%;
+}
+
+.hero-bin button a {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.ourSevices {
+    display: flex;
+    padding-top: 12%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourSevices h2 {
+    color: var(--black);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.ourSevices p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.item1,
+.item2,
+item3,
+item4,
+item5,
+item6 {
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+h4 {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+}
+
+.servicesContainer .btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn button {
+    border: 1px solid var(--primary-color);
+    background-color: var(--white);
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+}
+
+.btn button a {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    max-width: var(--lg);
+}
+
+.hero2-R h4 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.hero2-R p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+.hero3 {
+    display: flex;
+    margin-top: 229px;
+}
+
+.hero3-L h4 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-top: 2%;
+    padding-right: 50%;
+}
+
+.hero3-L p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 27%;
+}
+
+.hero3-L button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsContainer {
+   
+    margin-top: 266px;
+    
+    border-radius: 30px; 
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+
+    width: 1120px;
+    height: 425px;
+    top: 3724px;
+    left: 242px;
+    gap: 0px;
+    
+    opacity: 0px;
+}
+
+.testimonialsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonialsText h4 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--white);
+  }
+
+ .testimonialsContainer .testimonialsText .text {
+    border-bottom: 3.5px solid var(--white);
+    width: 5%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+
+
+
+  footer {
+    height: 432px;
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 118px 145px 113px 190px; */
+  }
+
+
+  footer .footerR {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footerRnav a {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--white);
+  }
+
+ .footerNav {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    color: var(--white);
+  }
